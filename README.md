@@ -11,20 +11,13 @@ Command-line reverse polish notation (RPN) calculator
 - There's an option provided to clean the accumulator
 - If there's an error during the execution, it will rescue the error, clear the accumulators and ask to start all over again.
 
-## Requirements 
+## System requirements 
 
 - Ruby 2.3.1 
 - Command line tool
 
-## Using the CLI RPN Calculator
+## Installation
 
-### Allowed inputs: 
-1. "q" to exit the program
-2. "ac" to clear the accumulator
-3. Numbers: integers and decimals
-4. Basic operators: "+" "-" "*" "/"
-
-### Starting the calculator
 1. Download the file calc.rb
 2. Open a terminal and type
 
@@ -32,13 +25,20 @@ Command-line reverse polish notation (RPN) calculator
 $ ruby calc.rb
 ```
 
+## Usage
 
-### Using the calculator
+### Allowed inputs: 
+1. "q" to exit the program
+2. "ac" to clear the accumulator
+3. Numbers: integers and decimals
+4. Basic operators: "+" "-" "*" "/"
 
+
+### Using the calc: 
 1. Users will be allowed to enter the numbers and operators one at a time or in a single line. 
 2. If the input is done in a single line, it'll be separated by a blank space.
 3. The output will be stored in an accumulator. The user will have the option to clear the accumulator by typing "ac".
-4. To exit the application, type in "q".
+4. To exit the application, type in "q". 
 5. Have fun! 
 
 
