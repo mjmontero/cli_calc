@@ -91,4 +91,5 @@ $ ruby calc.rb
 2. More validations on inputs given by user
 3. Only 4 basic operations
 4. This can be converted into a service that can be accessed using API endpoints.
+5. Automated tests
 
