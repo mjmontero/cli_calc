@@ -19,7 +19,6 @@ def process_input(input, num_list, total)
       end      
     end
   rescue Exception => e
-    puts e
     num_list = []
     total = 0
     puts "An error occurred, please try again..."
