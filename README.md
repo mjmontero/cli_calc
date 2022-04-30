@@ -88,7 +88,7 @@ $ ruby calc.rb
 
 ## Trade-offs
 1. Help information
-2. More validations on inputs given by user
+2. More validations on inputs given by user, including checking that the user provides a valid operation (at least two numbers and one operator, for example)
 3. Only 4 basic operations
 4. This can be converted into a service that can be accessed using API endpoints.
 5. Automated tests
