@@ -62,10 +62,9 @@ def print_output(arg)
   puts (arg.is_a?(Integer) ? arg : arg.to_s('F'))
 end
 
-prompt = "> "
 num_list = []
 total = 0
-while input = Readline.readline(prompt, true)
+while input = Readline.readline("> ", true)
   process_input(input, num_list, total) if input.length > 0
 end
 
